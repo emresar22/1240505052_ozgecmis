@@ -48,12 +48,12 @@ public class ResumeGenerator {
             document.add(new Paragraph("İs Deneyimleri", headerFont));
             document.add(new Paragraph("---------------------------------------------------"));
 
-            document.add(addExperience("Kıdemli Yazılım Mühendisi", "TechGlobal A.Ş.", "2024 - Günümüz", "Mikroservis mimarileri tasarlandı ve Java Spring Boot ile backend servisleri geliştirildi."));
-            document.add(addExperience("Yazılım Geliştirici", "Bilişim Çözümleri Ltd.", "2021 - 2024", "E-ticaret platformunun veritabanı optimizasyonları yapıldı ve RESTful API'ler yazıldı."));
-            document.add(addExperience("Junior Java Geliştirici", "StartUp Teknoloji", "2019 - 2021", "Müşteri yönetim sistemi için CRUD işlemleri ve arayüz entegrasyonları tamamlandı."));
+            document.add(addExperience("Kidemli Yazilim Muhendisi", "TechGlobal A.S.", "2024 - Gunumuz", "Mikroservis mimarileri tasarlandi ve Java Spring Boot ile backend servisleri gelistirildi."));
+            document.add(addExperience("Yazilim Gelistirici", "Bilisim Çozumleri Ltd.", "2021 - 2024", "E-ticaret platformunun veritabani optimizasyonlari yapildi ve RESTful API'ler yazildi."));
+            document.add(addExperience("Junior Java Gelistirici", "StartUp Teknoloji", "2019 - 2021", "Musteri yonetim sistemi icin CRUD islemleri ve arayuz entegrasyonlari tamamlandi."));
 
             document.close();
-            System.out.println("Özgeçmiş başarıyla oluşturuldu: " + destPath);
+            System.out.println("Ozgecmis basarıyla olusturuldu: " + destPath);
 
         } catch (Exception e) {
             e.printStackTrace();
